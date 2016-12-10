@@ -63,11 +63,19 @@
             android:textColorHint="#ffcccccc"
             android:textSize="15.0sp"
         />
+<<<<<<< HEAD
         <!--<ProgressBar-->
             <!--android:id="@+id/title_update_progress"-->
             <!--style="@style/title_update_progressbar_style"-->
             <!--android:layout_below="@id/search_edit"-->
             <!--android:scrollbarSize="100dip"/>-->
+=======
+        <ProgressBar
+            android:id="@+id/title_update_progress"
+            style="@style/title_update_progressbar_style"
+            android:layout_below="@id/search_edit"
+            android:scrollbarSize="100dip"/>
+>>>>>>> 2c0808fc5a0135b78ac7f2f1595edc106feb3be8
     </RelativeLayout>
 
     <RelativeLayout
