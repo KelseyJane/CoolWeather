@@ -102,6 +102,25 @@ public class MainActivity extends Activity implements View.OnClickListener {
         initView();
     }
 
+    /*View.OnClickListener listener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch (v.getId()) {
+                case R.id.btn1:
+                    txt222.setVisibility(View.VISIBLE);
+                    break;
+
+                case R.id.btn2:
+                    txt222.setVisibility(View.INVISIBLE);
+                    break;
+
+                case R.id.btn3:
+                    txt222.setVisibility(View.GONE);
+                    break;
+            }
+        }
+    };*/
+
 
 
     @Override
@@ -117,6 +136,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             SharedPreferences sharedPreferences = getSharedPreferences("config",MODE_PRIVATE);
             String cityCode = sharedPreferences.getString("main_city_code","101010100");
             Log.d("myWeather",cityCode);
+
 
             if(NetUtil.getNetworkState(this) != NetUtil.NETWORN_NONE){
                 Log.d("myWeather","网络OK");
