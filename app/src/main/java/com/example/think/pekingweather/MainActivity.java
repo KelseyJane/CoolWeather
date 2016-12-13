@@ -7,8 +7,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.StrictMode;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,6 +28,8 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import cn.edu.pku.chensi.bean.TodayWeather;
 import cn.edu.pku.chensi.util.NetUtil;
@@ -39,6 +45,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             pmQualityTv,
             temperatureTv, climateTv, windTv, city_name_Tv;
     private ImageView weatherImg, pmImg;
+    private ViewPager vp;
+    private List<View> views;
 
     private Handler mHandler = new Handler() {
         public void handleMessage(android.os.Message msg) {
@@ -100,7 +108,63 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mCitySelect.setOnClickListener(this);
 
         initView();
+
+        vp = (ViewPager) findViewById(R.id.viewfuturepager);
+        LayoutInflater inflater = getLayoutInflater();
+        View figure1 = inflater.inflate(R.layout.figure1, null);
+        View figure2= inflater.inflate(R.layout.figure2, null);
+        views=new ArrayList<>();
+        views.add(figure1);
+        views.add(figure2);
+
+        PagerAdapter pagerAdapter = new PagerAdapter() {
+            @Override
+            public int getCount() {
+                return views.size();
+            }
+
+            @Override
+            public boolean isViewFromObject(View view, Object object) {
+                return view == object;
+            }
+
+            @Override
+            public Object instantiateItem(ViewGroup container, int position) {
+                container.addView(views.get(position));
+                return views.get(position);
+            }
+
+            @Override
+            public void destroyItem(ViewGroup container, int position, Object object) {
+                container.removeView(views.get(position));
+            }
+        };
+
+        if(vp==null){
+            Log.i("mmmm","null");
+        } else {
+            vp.setAdapter(pagerAdapter);
+        }
     }
+
+    /*View.OnClickListener listener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch (v.getId()) {
+                case R.id.btn1:
+                    txt222.setVisibility(View.VISIBLE);
+                    break;
+
+                case R.id.btn2:
+                    txt222.setVisibility(View.INVISIBLE);
+                    break;
+
+                case R.id.btn3:
+                    txt222.setVisibility(View.GONE);
+                    break;
+            }
+        }
+    };*/
 
 
 
@@ -117,6 +181,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             SharedPreferences sharedPreferences = getSharedPreferences("config",MODE_PRIVATE);
             String cityCode = sharedPreferences.getString("main_city_code","101010100");
             Log.d("myWeather",cityCode);
+
 
             if(NetUtil.getNetworkState(this) != NetUtil.NETWORN_NONE){
                 Log.d("myWeather","网络OK");
