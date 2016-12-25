@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:orientation="horizontal">
+=======
+    android:layout_height="match_parent">
+>>>>>>> 8fa4d1d25705c4d3b30204efe5720468b95bfb61
     <!--<LinearLayout-->
 
         <!--android:layout_width="fill_parent"-->
@@ -151,6 +155,7 @@
 
 
     <!--</LinearLayout>-->
+<<<<<<< HEAD
     <!--第一列-->
     <LinearLayout
         android:layout_width="wrap_content"
@@ -443,4 +448,11 @@
                 android:layout_marginLeft="25dp"/>
         </LinearLayout>
     </LinearLayout>
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="assdf"
+        android:textColor="#FFFFFF"/>
+>>>>>>> 8fa4d1d25705c4d3b30204efe5720468b95bfb61
 </LinearLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
@@ -444,3 +445,166 @@
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
+=======
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<LinearLayout-->
+
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="300dp">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="27日星期一"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff" />-->
+            <!--<ImageView-->
+                <!--android:id="@+id/weather_img"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/biz_plugin_weather_qing"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="-2"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/climate"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="4dip"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="多云转晴"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/wind"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:layout_toRightOf="@id/weather_img"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="微风"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="27日星期一"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<ImageView-->
+
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/biz_plugin_weather_qing"-->
+                <!--/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="-2"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:layout_marginLeft="4dip"-->
+                <!--android:textColor="#ffffffff"-->
+
+                <!--android:singleLine="true"-->
+                <!--android:text="多云转晴"-->
+                <!--android:textSize="20sp"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/climate"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:layout_toRightOf="@id/weather_img"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="微风"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="27日星期一"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+            <!--<ImageView-->
+
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/biz_plugin_weather_qing"-->
+                <!--/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="-2"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="4dip"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="多云转晴"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="微风"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+
+
+        <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="assdf"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
+>>>>>>> 8fa4d1d25705c4d3b30204efe5720468b95bfb61
