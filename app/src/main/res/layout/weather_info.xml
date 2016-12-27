@@ -6,8 +6,7 @@
     android:paddingBottom="0dp"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
-    android:paddingTop="0dp"
-    tools:context="com.example.think.forthapplication.MainActivity">
+    android:paddingTop="0dp">
 
     <RelativeLayout
         android:id="@+id/title"
@@ -245,34 +244,84 @@
                     android:textColor="@android:color/white"
                     android:textSize="20.0sp" />
 
-                <ImageView
-                    android:layout_alignLeft="@id/weather_img"
-                    android:layout_below="@id/weather_img"
-                    android:layout_marginLeft="20dip"
-                    android:src="@drawable/tempreature"
-                    android:layout_width="100dip"
-                    android:layout_height="100dip" />
+                <!--<ImageView-->
+                    <!--android:layout_alignLeft="@id/weather_img"-->
+                    <!--android:layout_below="@id/weather_img"-->
+                    <!--android:layout_marginLeft="20dip"-->
+                    <!--android:src="@drawable/tempreature"-->
+                    <!--android:layout_width="60dip"-->
+                    <!--android:layout_height="60dip" />-->
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="温度：6℃"
-                    android:layout_below="@id/wind"
-                    android:layout_marginLeft="117dip"
-                    android:layout_marginTop="35dip"
-                    android:textSize="35dp"
-                    android:textColor="@android:color/white"/>
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="温度：6℃"-->
+                    <!--android:layout_below="@id/wind"-->
+                    <!--android:layout_marginLeft="117dip"-->
+                    <!--android:layout_marginTop="35dip"-->
+                    <!--android:textSize="35dp"-->
+                    <!--android:textColor="@android:color/white"/>-->
             </RelativeLayout>
         </RelativeLayout>
-        <!-- 六日天气信息 -->
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewfuturepager">
+
+        </android.support.v4.view.ViewPager>
+
+
         <!-- 广告等信息 -->
     </LinearLayout>
 
-
-    <!--helloWorld-->
-    <TextView
-        android:layout_width="wrap_content"
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:id="@+id/futureDian">
+
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/indicator2"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        >
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/yuandian1"/>
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/unfocused"/>
+
+    </LinearLayout>
+    <!-- 六日天气信息 -->
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+    <!--</LinearLayout>-->
+
+    <!--<include-->
+        <!--android:id="@+id/figure"-->
+        <!--layout="@layout/guide_figure"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="" />-->
 
 </RelativeLayout>

@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">PekingWeather</string>
+    <string name="yesterday">明 天</string>
+    <string name="today">今 天</string>
+    <string name="Saturday">周 六</string>
+    <string name="Sunday">周 日</string>
+    <string name="Monday">周 一</string>
+    <string name="Tuesday">周 二</string>
+    <string name="Wednesday">周 三</string>
+    <string name="Thursday">周 四</string>
+    <string name="Friday">周 五</string>
+    <string name="date1">12/28</string>
+    <string name="date2">12/29</string>
+    <string name="date3">12/30</string>
+    <string name="date4">12/31</string>
+    <string name="date5">1/1</string>
+    <string name="date6">1/2</string>
+
+
 </resources>
