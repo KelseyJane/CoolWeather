@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
@@ -170,7 +174,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
+<<<<<<< HEAD
                 android:text="@string/Saturday"
+=======
+                android:text="@string/yesterday"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
         <!--日期-->
@@ -179,11 +187,19 @@
             android:layout_height="wrap_content"
             android:id="@id/layout2"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="34dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/date4"
+=======
+            android:layout_marginLeft="38dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date1"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
@@ -193,7 +209,11 @@
             android:layout_height="wrap_content"
             android:id="@id/layout3"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="37dp">
+=======
+            android:layout_marginLeft="31dp">
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
             <!--<TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -203,7 +223,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="6"
+=======
+                android:text="16"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
             <TextView
@@ -216,14 +240,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="~"
+=======
+                android:text="—"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"
                 android:layout_marginLeft="-12dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="-6"
+=======
+                android:text="28"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
             <TextView
@@ -243,8 +275,13 @@
             <ImageView
                 android:layout_height="75dp"
                 android:layout_width="75dp"
+<<<<<<< HEAD
                 android:src="@drawable/sun"
                 android:layout_marginLeft="20dp" />
+=======
+                android:src="@drawable/rainy"
+                android:layout_marginLeft="25dp" />
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
 
         </LinearLayout>
     </LinearLayout>
@@ -263,12 +300,20 @@
             android:layout_height="wrap_content"
             android:id="@id/layout1"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="36dp">
+=======
+            android:layout_marginLeft="38dp">
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
+<<<<<<< HEAD
                 android:text="@string/Sunday"
+=======
+                android:text="@string/yesterday"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
         <!--日期-->
@@ -277,11 +322,19 @@
             android:layout_height="wrap_content"
             android:id="@id/layout2"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="39dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/date5"
+=======
+            android:layout_marginLeft="38dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date1"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
@@ -291,7 +344,11 @@
             android:layout_height="wrap_content"
             android:id="@id/layout3"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="35dp">
+=======
+            android:layout_marginLeft="31dp">
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
             <!--<TextView-->
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"-->
@@ -301,7 +358,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="8"
+=======
+                android:text="16"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
             <TextView
@@ -314,14 +375,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="~"
+=======
+                android:text="—"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"
                 android:layout_marginLeft="-12dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="-4"
+=======
+                android:text="28"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
             <TextView
@@ -341,8 +410,13 @@
             <ImageView
                 android:layout_height="75dp"
                 android:layout_width="75dp"
+<<<<<<< HEAD
                 android:src="@drawable/sun"
                 android:layout_marginLeft="20dp"
+=======
+                android:src="@drawable/rainy"
+                android:layout_marginLeft="25dp"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 />
 
         </LinearLayout>
@@ -362,12 +436,20 @@
             android:layout_height="wrap_content"
             android:id="@id/layout1"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="35dp">
+=======
+            android:layout_marginLeft="38dp">
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
+<<<<<<< HEAD
                 android:text="@string/Monday"
+=======
+                android:text="@string/yesterday"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
         <!--日期-->
@@ -376,11 +458,19 @@
             android:layout_height="wrap_content"
             android:id="@id/layout2"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="37dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/date6"
+=======
+            android:layout_marginLeft="38dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date1"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
@@ -389,7 +479,11 @@
             android:layout_height="wrap_content"
             android:id="@id/layout3"
             android:orientation="horizontal"
+<<<<<<< HEAD
             android:layout_marginLeft="33dp">
+=======
+            android:layout_marginLeft="31dp">
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
             <!--<TextView-->
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"-->
@@ -399,7 +493,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="7"
+=======
+                android:text="16"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
             <TextView
@@ -412,14 +510,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="~"
+=======
+                android:text="—"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"
                 android:layout_marginLeft="-12dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="-6"
+=======
+                android:text="28"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"/>
             <TextView
@@ -435,12 +541,186 @@
             android:layout_height="wrap_content"
             android:id="@id/layout4"
             android:orientation="vertical"
+<<<<<<< HEAD
             android:layout_marginLeft="-6dp">
             <ImageView
                 android:layout_height="75dp"
                 android:layout_width="75dp"
                 android:src="@drawable/sun"
+=======
+            android:layout_marginLeft="0dp">
+            <ImageView
+                android:layout_height="75dp"
+                android:layout_width="75dp"
+                android:src="@drawable/rainy"
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
                 android:layout_marginLeft="25dp"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
+<<<<<<< HEAD
+=======
+=======
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<LinearLayout-->
+
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="300dp">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="27日星期一"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff" />-->
+            <!--<ImageView-->
+                <!--android:id="@+id/weather_img"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/biz_plugin_weather_qing"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="-2"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/climate"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="4dip"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="多云转晴"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/wind"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:layout_toRightOf="@id/weather_img"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="微风"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="27日星期一"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<ImageView-->
+
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/biz_plugin_weather_qing"-->
+                <!--/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="-2"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:layout_marginLeft="4dip"-->
+                <!--android:textColor="#ffffffff"-->
+
+                <!--android:singleLine="true"-->
+                <!--android:text="多云转晴"-->
+                <!--android:textSize="20sp"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/climate"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:layout_toRightOf="@id/weather_img"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="微风"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="27日星期一"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+            <!--<ImageView-->
+
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:src="@drawable/biz_plugin_weather_qing"-->
+                <!--/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="-2"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#ffffffff"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="4dip"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="多云转晴"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:singleLine="true"-->
+                <!--android:text="微风"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="20sp"/>-->
+
+
+        <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="assdf"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
+>>>>>>> 8fa4d1d25705c4d3b30204efe5720468b95bfb61
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a

@@ -13,7 +13,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Button;
+=======
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -47,6 +50,7 @@ public class MainActivity extends Activity implements View.OnClickListener,ViewP
             temperatureTv, climateTv, windTv, city_name_Tv;
     private ImageView weatherImg, pmImg;
     private ViewPager vp;
+<<<<<<< HEAD
     private ViewPager vp2;
     private List<View> views;
     private List<View> views2;
@@ -56,6 +60,9 @@ public class MainActivity extends Activity implements View.OnClickListener,ViewP
     private int[] ids2 = {R.id.iv4,R.id.iv5};
     //private ViewGroup dotsGroup = null ;
 
+=======
+    private List<View> views;
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
 
     private Handler mHandler = new Handler() {
         public void handleMessage(android.os.Message msg) {
@@ -117,6 +124,7 @@ public class MainActivity extends Activity implements View.OnClickListener,ViewP
         mCitySelect.setOnClickListener(this);
 
         initView();
+<<<<<<< HEAD
         //initView2();
 
         initViews();
@@ -124,6 +132,10 @@ public class MainActivity extends Activity implements View.OnClickListener,ViewP
 
         vp = (ViewPager) findViewById(R.id.viewfuturepager);
         vp2 = (ViewPager) findViewById(R.id.futureDian);
+=======
+
+        vp = (ViewPager) findViewById(R.id.viewfuturepager);
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
         LayoutInflater inflater = getLayoutInflater();
         View figure1 = inflater.inflate(R.layout.figure1, null);
         View figure2= inflater.inflate(R.layout.figure2, null);
@@ -131,11 +143,14 @@ public class MainActivity extends Activity implements View.OnClickListener,ViewP
         views.add(figure1);
         views.add(figure2);
 
+<<<<<<< HEAD
         //实现小圆点
 //        dotsGroup = (ViewGroup) findViewById ( R.id.dotsGroup ) ;
 //        init_smallDots (0, ) ;
 
 
+=======
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
         PagerAdapter pagerAdapter = new PagerAdapter() {
             @Override
             public int getCount() {
@@ -163,6 +178,7 @@ public class MainActivity extends Activity implements View.OnClickListener,ViewP
             Log.i("mmmm","null");
         } else {
             vp.setAdapter(pagerAdapter);
+<<<<<<< HEAD
             vp.setOnPageChangeListener(this);
         }
 
@@ -233,6 +249,11 @@ public class MainActivity extends Activity implements View.OnClickListener,ViewP
 //        }
 //    }
 
+=======
+        }
+    }
+
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
     /*View.OnClickListener listener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {

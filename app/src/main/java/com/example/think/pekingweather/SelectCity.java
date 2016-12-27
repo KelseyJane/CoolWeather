@@ -9,7 +9,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+<<<<<<< HEAD
 import android.widget.EditText;
+=======
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -17,7 +20,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+<<<<<<< HEAD
 import java.util.StringTokenizer;
+=======
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
 
 import cn.edu.pku.chensi.app.MyApplication;
 import cn.edu.pku.chensi.bean.City;
@@ -35,10 +41,13 @@ public class SelectCity extends Activity implements View.OnClickListener{
     private String SelectedId;
     private TextView cityName;
     //private TextView selectcity;
+<<<<<<< HEAD
     //baby
     private EditText mEditText;
     private List<City> mCityList;
     private City citySelected;
+=======
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
 
     ArrayList<String> city = new ArrayList<String>();
     ArrayList<String> cityId = new ArrayList<String>();
@@ -72,7 +81,9 @@ public class SelectCity extends Activity implements View.OnClickListener{
 
         mBackBtn = (ImageView) findViewById(R.id.title_back);
         mBackBtn.setOnClickListener(this);
+        mlistView = (ListView)findViewById(R.id.lv_listView);
 
+<<<<<<< HEAD
         //baby
         mEditText = (EditText)findViewById(R.id.search_edit);
         mEditText.addTextChangedListener(mTextWatcher);
@@ -88,6 +99,16 @@ public class SelectCity extends Activity implements View.OnClickListener{
 //            cityId.add(data.get(i++).getNumber().toString());
 //            i++;
 //        }
+=======
+        App = (MyApplication)getApplication();
+        data = App.getCityList();
+        int i = 0;
+        while(i < data.size()){
+            city.add(data.get(i).getCity().toString());
+            cityId.add(data.get(i++).getNumber().toString());
+            i++;
+        }
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
         //setContentView(R.layout.select_city);
 
         //获取listView控件
@@ -95,6 +116,7 @@ public class SelectCity extends Activity implements View.OnClickListener{
         //创建一个功能数组
         //String[] str = {"北京","上海","成都"};
 
+<<<<<<< HEAD
         //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,city);
         //mlistView.setAdapter(adapter);
 
@@ -117,6 +139,20 @@ public class SelectCity extends Activity implements View.OnClickListener{
         mBackBtn = (ImageView) findViewById(R.id.title_back);
         mBackBtn.setOnClickListener(this);
 
+=======
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,city);
+        mlistView.setAdapter(adapter);
+
+        cityName = (TextView)findViewById(R.id.title_city_name);
+        //selectcity = (TextView)findViewById(R.id.select_city_name);
+        mlistView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                Toast.makeText(SelectCity.this,"你单击了："+city.get(position),Toast.LENGTH_SHORT).show();
+                SelectedId = cityId.get(position);
+            }
+        });
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
     }
     //baby
     TextWatcher mTextWatcher = new TextWatcher() {
@@ -180,6 +216,7 @@ public class SelectCity extends Activity implements View.OnClickListener{
                 setResult(RESULT_OK,i);
                 finish(); //退出该Activity
                 break;
+<<<<<<< HEAD
 
             //babyDelect
 //            case R.id.lv_listView:
@@ -189,6 +226,14 @@ public class SelectCity extends Activity implements View.OnClickListener{
 //                finish();
 //                break;
 
+=======
+            case R.id.lv_listView:
+                Intent j = new Intent();
+                j.putExtra("cityCode",SelectedId);
+                setResult(RESULT_OK,j);
+                finish();
+                break;
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
             default:
                 break;
         }

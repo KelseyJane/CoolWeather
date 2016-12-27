@@ -270,6 +270,7 @@
             android:id="@+id/viewfuturepager">
 
         </android.support.v4.view.ViewPager>
+<<<<<<< HEAD
 
 
         <!-- 广告等信息 -->
@@ -308,6 +309,11 @@
             android:src="@drawable/unfocused"/>
 
     </LinearLayout>
+=======
+        <!-- 广告等信息 -->
+    </LinearLayout>
+
+>>>>>>> 5515b3ef3795743678c7541c0cf0cfa377ec546a
     <!-- 六日天气信息 -->
     <!--<LinearLayout-->
         <!--android:layout_width="wrap_content"-->
